@@ -9,6 +9,8 @@ composer require --dev aleahy/artisan-vue-make
 
 ## Usage
 
+### Creating a Component
+
 ```bash
 php artisan make:vue NewComponent
 ```
@@ -28,7 +30,7 @@ This will create a new component file in `resources/js/components/path/to/NewCom
 The component can also be registered in the app.js file by assigning a tag for the component.
 
 ```bash
-php artisan make:vue NewComponent --tag='new-component'
+php artisan make:vue NewComponent --tag=new-component
 ```
 
 By adding the `--tag` option, the following will be added to app.js after any previous component registration.
