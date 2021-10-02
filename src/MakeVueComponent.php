@@ -14,7 +14,9 @@ class MakeVueComponent extends Command
      *
      * @var string
      */
-    protected $signature = 'make:vue {path} {--tag=}';
+    protected $signature = 'make:vue 
+                            {path : The path to the component using dot-notation from the components directory} 
+                            {--tag= : The tag to be used in app.js for the component}';
 
     /**
      * The console command description.
