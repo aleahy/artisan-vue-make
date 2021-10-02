@@ -1,0 +1,31 @@
+{
+    "name": "aleahy/artisan-vue-make",
+    "description": "An artisan command to create a vue component and register it in app.js",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aleahy\\ArtisanVueMake\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Leahy",
+            "email": "alex@languagetub.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "prefer-stable": true,
+    "require-dev": {
+        "orchestra/testbench": "^6.21"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aleahy\\ArtisanVueMake\\ServiceProvider"
+            ]
+        }
+    }
+}
